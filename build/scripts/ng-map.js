@@ -1819,7 +1819,7 @@ angular.module('ngMap', []);
     };
 
     return {
-      restrict: 'AE',
+      restrict: 'A',
       controller: 'MapController',
       link: linkFunc
     };
