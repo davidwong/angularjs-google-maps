@@ -7,11 +7,11 @@ e.g.
 
 instead of
 
-<map ... ></map>
+`<map ... ></map>`
 
 you must use
 
-<div map ... ></div>
+`<div map ... ></div>`
 
 This was done due to the conflict with using the map tag for image maps.
 
