@@ -1,6 +1,21 @@
 GoogleMap AngularJS Directive
 =============================
 
+
+Changes: This fork changes the restrict field for the map tag from AE to A. This means that map tag can no longer be used for Google Maps, but instead add the map attribute to a div tag.
+e.g. 
+
+instead of
+
+*<map ... ></map>*
+
+use
+
+*<div map ... ></div>*
+
+This was done due to the conflict with using the map tag for image maps.
+
+
 [![Build Status](https://travis-ci.org/allenhwkim/angularjs-google-maps.png?branch=master)](https://travis-ci.org/allenhwkim/angularjs-google-maps)
 
 [Demo](http://ngmap.github.io)  
